@@ -41,7 +41,6 @@ button{
   background-color:#625b71;
   color: antiquewhite;
   font-size: 1rem;
-  font-family: 'Yeon Sung', cursive;
 }
 button:hover, button:active{
   background-color:#6750a4 ;
