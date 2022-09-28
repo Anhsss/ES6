@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="./style/index.css">
+  <link rel="stylesheet" href="./style/index1.css">
   <!--내부 자바스크립트
   <script>
     //alert("Hello World");
@@ -15,14 +15,15 @@
   </script>
   -->
   <!--외부 자바스크립트-->
-  <script src="../script/index.js">
+  <!--script src="../script/index.js"></!--script-->
+    <script src="../script/dom.js"></script>
 
-  </script>
+  
 </head>
 <body>
   <div id="root">  
     <header>
-      <h1>자바스크립트 연습</h1>
+      <h1>주사위 게임</h1>
     </header>
     <!--여기도 가능
     <script>
@@ -30,13 +31,27 @@
       //console.log("Hello World!");
     </script>
     -->
-    <main id ="content">
-    <section id="bt">
-      <button class="bt1" onclick="funPrint(1);">버튼1</button>
-      <button class="bt1" onclick="funPrint(2);">버튼2</button>
-      
+  <main id ="content">
+    <section id = "msg"></section>
+    <section id = "formSection">
+      <label for="r1">1</label>
+      <input type="radio" id="r1" name="dice">
+      <label for="r2">2</label> 
+      <input type="radio" id="r1" name="dice"> 
+      <label for="r3">3</label> 
+      <input type="radio" id="r1" name="dice"> 
+      <label for="r4">4</label> 
+      <input type="radio" id="r1" name="dice"> 
+      <label for="r5">5</label> 
+      <input type="radio" id="r1" name="dice"> 
+      <label for="r6">6</label> 
+      <input type="radio" id="r1" name="dice"> 
     </section>
-    </main>
+    <section id="bt">
+      <button class="bt1" onclick="show();">확인</button>
+      <!--button class="bt1" onclick="funPrint(2);">버튼2</!--button-->
+    </section>
+  </main>
   </div>
   <!--여기도 가능
     <script>

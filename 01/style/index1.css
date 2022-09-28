@@ -19,6 +19,7 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background-color:#cac4cf
 }
 main > section{
@@ -27,10 +28,27 @@ main > section{
   justify-content: center;
   align-items: center;
 }
+#formSection{
+  flex-direction: row;
+}
+
+/*
+#msg{
+  display: none;
+}
+*/
 /*버튼*/
+img{
+  width: 100px;
+  height: 100px;
+}
+.divMsg{
+  display: inline-block;
+  margin: 2px;
+}
 button{
   display: inline-block;
-  width: 100;
+  width: 100px;
   margin: 1vh;
   width: 50vw;
   height: 20vw;

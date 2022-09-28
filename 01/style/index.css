@@ -18,14 +18,17 @@ main{
   height: 90vh;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   background-color:#cac4cf
+
 }
 main > section{
   display: flex;
   flex-direction: column;  /*중심축 세로정렬*/
   justify-content: center;
   align-items: center;
+  margin: 2vh;
 }
 /*버튼*/
 button{
