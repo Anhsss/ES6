@@ -8,6 +8,10 @@ const show = () =>{
   //폼 숨기기
   const formSection = document.querySelector('#formSection');
   formSection.style.display= "none";
+
+  //확인 버튼 숨기기
+  const bt1 = document.querySelector('.bt1');
+  bt1.style.display = "none";
   //1.태그
   let tag = "";
   /* 
@@ -34,7 +38,7 @@ console.log(tag)
   msgImg.style.maxheight = "100px";
 
   document.addEventListener("DOMContentLoaded",()=>{
-    console.log(i)
+  console.log(i)
   })
 
 }

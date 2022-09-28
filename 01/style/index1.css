@@ -30,6 +30,8 @@ main > section{
 }
 #formSection{
   flex-direction: row;
+  font-size: 30px;
+  color:#6750a4;
 }
 
 /*
