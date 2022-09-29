@@ -33,6 +33,10 @@ main > section{
   font-size: 30px;
   color:#6750a4;
 }
+fieldset > legend{
+  color: #625b71;
+  font-size: 30px;
+}
 
 /*
 #msg{
@@ -65,4 +69,7 @@ button{
 }
 button:hover, button:active{
   background-color:#6750a4 ;
+}
+section{
+  margin: 10px;
 }

@@ -12,6 +12,9 @@ const show = () =>{
   //확인 버튼 숨기기
   const bt1 = document.querySelector('.bt1');
   bt1.style.display = "none";
+  //주사위 그림 숨기기
+
+
   //1.태그
   let tag = "";
   /* 
@@ -26,7 +29,6 @@ tag = `<div class="divMsg"><img src="./img/${i}.png" id="msgImg"></div>`
 console.log(tag)
   //2.DOM에서 태그를 넣을 요소 선택
   const divMsg = document.querySelector('#msg')
-  
 
   //3.선택된 요소의 HTML 변경
   divMsg.innerHTML = tag
