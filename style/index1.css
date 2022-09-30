@@ -1,0 +1,75 @@
+/*레이아웃*/
+*{     /*전체잡기*/
+  margin: 0px;
+  padding: 0px;
+}
+header{
+  height: 10vh; /*화면 사이즈의 10%*/
+  background-color:#381e72;
+  color: #e7e0eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top :0;
+  position: sticky;
+  font-family: 'Jua', sans-serif;
+}
+main{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:#cac4cf
+}
+main > section{
+  display: flex;
+  flex-direction: column;  /*중심축 세로정렬*/
+  justify-content: center;
+  align-items: center;
+}
+#formSection{
+  flex-direction: row;
+  font-size: 30px;
+  color:#6750a4;
+}
+fieldset > legend{
+  color: #625b71;
+  font-size: 30px;
+}
+
+/*
+#msg{
+  display: none;
+}
+*/
+/*버튼*/
+img{
+  width: 100px;
+  height: 100px;
+}
+.divMsg{
+  display: inline-block;
+  margin: 2px;
+}
+button{
+  display: inline-block;
+  width: 100px;
+  margin: 1vh;
+  width: 50vw;
+  height: 20vw;
+  max-width: 200px;
+  max-height: 50px;
+  border-radius: 8px;
+  border: none;
+  background-color:#625b71;
+  color: antiquewhite;
+  font-size: 1rem;
+  font-family: 'Yeon Sung', cursive;
+}
+button:hover, button:active{
+  background-color:#6750a4 ;
+}
+section{
+  margin: 10px;
+}

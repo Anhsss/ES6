@@ -7,22 +7,60 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="./style/index.css">
+  <link rel="stylesheet" href="./style/index1.css">
+  <!--내부 자바스크립트
+  <script>
+    //alert("Hello World");
+    //console.log("Hello World!");
+  </script>
+  -->
+  <!--외부 자바스크립트-->
+  <!--script src="../script/index.js"></!--script-->
+    <script src="../script/dom1.js"></script>
+
+  
 </head>
 <body>
   <div id="root">  
     <header>
-      <h1>자바스크립트 연습</h1>
+      <h1>주사위 게임</h1>
     </header>
-    <main id ="content">
-    <section id="bt">
-      <button class="bt1">버튼1</button>
-      <button class="bt2">버튼2</button>
-      <button class="bt3">버튼3</button>
-      <button class="bt4">버튼4</button>
-      <button class="bt5">버튼5</button>
+    <!--여기도 가능
+    <script>
+      alert("Hello World");
+      //console.log("Hello World!");
+    </script>
+    -->
+  <main id ="content">
+    <section id = "msg"></section>
+    <section id = "formSection">
+    <fieldset>
+        <legend align ="center">번호선택</legend>
+      <label for="r1"><b>1</b></label>
+      <input type="radio" id="r1" value="1" name="dice">
+      <label for="r2"><b>2</b></label> 
+      <input type="radio" id="r2" value="1" name="dice"> 
+      <label for="r3"><b>3</b></label> 
+      <input type="radio" id="r3" value="3" name="dice"> 
+      <label for="r4"><b>4</b></label> 
+      <input type="radio" id="r4" value="4" name="dice"> 
+      <label for="r5"><b>5</b></label> 
+      <input type="radio" id="r5" value="5" name="dice"> 
+      <label for="r6"><b>6</b></label> 
+      <input type="radio" id="r6" value="6" name="dice"> 
+    </fieldset>
     </section>
-    </main>
+    <section id="bt">
+      <button class="bt1" onclick="show();">주사위</button>
+      <button class="bt2" onclick="show();">확인</button>
+    </section>
+  </main>
   </div>
+  <!--여기도 가능
+    <script>
+      alert("Hello World");
+      //console.log("Hello World!");
+    </script>
+    -->
 </body>
 </html>
