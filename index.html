@@ -16,7 +16,7 @@
   -->
   <!--외부 자바스크립트-->
   <!--script src="../script/index.js"></!--script-->
-    <script src="../script/dom1.js"></script>
+    <script src="script/dom1.js"></script>
 
   
 </head>
@@ -33,26 +33,22 @@
     -->
   <main id ="content">
     <section id = "msg"></section>
-    <section id = "formSection">
-    <fieldset>
-        <legend align ="center">번호선택</legend>
-      <label for="r1"><b>1</b></label>
-      <input type="radio" id="r1" value="1" name="dice">
-      <label for="r2"><b>2</b></label> 
-      <input type="radio" id="r2" value="1" name="dice"> 
-      <label for="r3"><b>3</b></label> 
-      <input type="radio" id="r3" value="3" name="dice"> 
-      <label for="r4"><b>4</b></label> 
-      <input type="radio" id="r4" value="4" name="dice"> 
-      <label for="r5"><b>5</b></label> 
-      <input type="radio" id="r5" value="5" name="dice"> 
-      <label for="r6"><b>6</b></label> 
-      <input type="radio" id="r6" value="6" name="dice"> 
-    </fieldset>
+    <section id = "inNum">
+      <form name="form1" id="form1">
+        <fieldset>
+          <legend align = "center">번호선택</legend>
+          <input type="radio" name="num" value="1" id="r1"><label for="r1"> 1 </label>
+          <input type="radio" name="num" value="2" id="r2"><label for="r2"> 2 </label>
+          <input type="radio" name="num" value="3" id="r3"><label for="r3"> 3 </label>
+          <input type="radio" name="num" value="4" id="r4"><label for="r4"> 4 </label>
+          <input type="radio" name="num" value="5" id="r5"><label for="r5"> 5 </label>
+          <input type="radio" name="num" value="6" id="r6"><label for="r6"> 6 </label>
+        </fieldset>
+        </form>
     </section>
     <section id="bt">
-      <button class="bt1" onclick="show();">주사위</button>
-      <button class="bt2" onclick="show();">확인</button>
+      <button id="bt1" onclick="showDice()">주사위</button>
+      <button id="bt2" onclick="showOk()">확인</button>
     </section>
   </main>
   </div>
